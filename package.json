@@ -1,0 +1,22 @@
+{
+  "name": "pizza-delivery-backend",
+  "version": "1.0.0",
+  "description": "Pizza delivery service",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "jest"
+  },
+  "author": "Jesse C. Catrinck",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "pg": "^7.14.0",
+    "yesql": "^3.2.2"
+  },
+  "devDependencies": {
+    "jest": "^24.9.0",
+    "supertest": "^4.0.2"
+  }
+}
